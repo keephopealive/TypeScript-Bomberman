@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    outline: 1px dotted black;
+}
+div.panel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2000px;
+    height: 1000px;
+}
+div#world {
+    /* width: 1000px; */
+   
+}
+
+
+
+div#ground-plane {
+   
+}
+    div.ground_0 {
+        background-image: url('./grass.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }    
+    div.ground_1 {
+        background-image: url('./wall.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    div.ground_2 {
+        background-color: rgb(218, 17, 17);
+    }
+
+
+
+
+div#player-plane {
+   
+}
+    div.player01 {
+        background-image: url('./bomberman.gif');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+
+
+div#effects-plane {
+   
+}
+
+    div.effect_1 {
+
+    }
+
+div#bomb-plane {
+    
+}
+    div.bomb_2 {
+        background-image: url('./bomb.gif');
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position-x: 10px;
+        background-position-y: 10px;
+    }
+    div.bomb_1 {
+        background-image: url('./explosion.gif');
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position-x: 10px;
+        background-position-y: 10px;
+    }
+
+div#sky-plane {
+   
+}
+
+div#atmosphere-plane {
+   
+}
+
+div.block {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+div.wall {
+    background-color: black;
+}
+
+
